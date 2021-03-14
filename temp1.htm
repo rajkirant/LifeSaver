@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<script>
+
+          
+var x = document.createElement("INPUT");
+x.setAttribute("type", "text");
+x.setAttribute("value", "");
+x.id = "cities";
+var x1 = document.createElement("LABEL");
+var t = document.createTextNode("Full Name");
+x1.setAttribute("for", "cities");
+x1.appendChild(t);
+document.body.appendChild(x1);
+document.body.appendChild(x);
+document.body.appendChild(document.createElement("br"));
+
+var g = document.createElement("LABEL");
+var l = document.createTextNode("Gender :");
+g.setAttribute("for","gender");
+g.appendChild(l);
+document.body.appendChild(g);
+var a = document.createElement("INPUT");
+a.setAttribute("type","radio");
+a.id = "gender";
+var a1 = document.createElement("LABEL");
+var t1 = document.createTextNode("Male");
+a1.setAttribute("for","gender");
+a1.appendChild(t1);
+document.body.appendChild(a1);
+document.body.appendChild(a);
+
+var b = document.createElement("INPUT");
+b.setAttribute("type","radio");
+b.id = "gender";
+var b1 = document.createElement("LABEL");
+var t2 = document.createTextNode("Female");
+b1.setAttribute("for","gender");
+b1.appendChild(t2);
+document.body.appendChild(b1);
+document.body.appendChild(b);
+
+var c = document.createElement("INPUT");
+c.setAttribute("type","radio");
+c.id = "gender";
+var c1 = document.createElement("LABEL");
+var t3 = document.createTextNode("Others");
+c1.setAttribute("for","gender");
+c1.appendChild(t3);
+document.body.appendChild(c1);
+document.body.appendChild(c);
+document.body.appendChild(document.createElement("br"));
+
+
+var d = document.createElement("INPUT");
+d.setAttribute("type","select");
+d.id = "age";
+var d1 = document.createElement("LABEL");
+var t4 = document.createTextNode("Age :");
+d1.setAttribute("for","age");
+d1.appendChild(t4);
+document.body.appendChild(d1);
+document.body.appendChild(d);
+document.body.appendChild(document.createElement("br"));
+
+var e = document.createElement("INPUT");
+e.setAttribute("type","select");
+e.id = "weight";
+var e1 = document.createElement("LABEL");
+var t5 = document.createTextNode("Weight  :");
+e1.setAttribute("for","weight");
+e1.appendChild(t5);
+document.body.appendChild(e1);
+document.body.appendChild(e);
+document.body.appendChild(document.createElement("br"));
+
+var f = document.createElement("INPUT");
+f.setAttribute("type","select");
+f.id = "blood group";
+var f1 = document.createElement("LABEL");
+var t6 = document.createTextNode("Blood Group  :");
+f1.setAttribute("for","blood group");
+f1.appendChild(t6);
+document.body.appendChild(f1);
+document.body.appendChild(f);
+document.body.appendChild(document.createElement("br"));
+var g = document.createElement("INPUT");
+g.setAttribute("type","text");
+g.id = "allergies";
+var g1 = document.createElement("LABEL");
+var t7 = document.createTextNode("Allergies  :");
+g1.setAttribute("for","allergies");
+g1.appendChild(t7);
+document.body.appendChild(g1);
+document.body.appendChild(g);
+document.body.appendChild(document.createElement("br"));
+var h = document.createElement("INPUT");
+h.setAttribute("type","text");
+h.id = "diseases";
+var h1 = document.createElement("LABEL");
+var t8 = document.createTextNode("Diseases  :");
+h1.setAttribute("for","diseases");
+h1.appendChild(t8);
+document.body.appendChild(h1);
+document.body.appendChild(h);
+document.body.appendChild(document.createElement("br"));
+var i = document.createElement("INPUT");
+i.setAttribute("type","text");
+i.id = "other information";
+var i1 = document.createElement("LABEL");
+var t9 = document.createTextNode("Other information  :");
+i1.setAttribute("for","other information");
+i1.appendChild(t9);
+document.body.appendChild(i1);
+document.body.appendChild(i);
+var j = document.createElement("INPUT");
+j.setAttribute("type","text");
+j.id = "country";
+document.body.appendChild(document.createElement("br"));
+var j1 = document.createElement("LABEL");
+var t10 = document.createTextNode("Country  :");
+j1.setAttribute("for","country");
+j1.appendChild(t10);
+document.body.appendChild(j1);
+document.body.appendChild(j);
+document.body.appendChild(document.createElement("br"));
+var k = document.createElement("INPUT");
+k.setAttribute("type","text");
+k.id = "city";
+var k1 = document.createElement("LABEL");
+var t11 = document.createTextNode("City :");
+k1.setAttribute("for","city");
+k1.appendChild(t11);
+document.body.appendChild(k1);
+document.body.appendChild(k);
+document.body.appendChild(document.createElement("br"));
+var l = document.createElement("INPUT");
+l.setAttribute("type","text");
+l.id = "number";
+var l1 = document.createElement("LABEL");
+var t12 = document.createTextNode("Phone Number  :");
+l1.setAttribute("for","number");
+l1.appendChild(t12);
+document.body.appendChild(l1);
+document.body.appendChild(l);
+document.body.appendChild(document.createElement("br"));
+var m = document.createElement("INPUT");
+m.setAttribute("type","dropdown");
+m.id = "hospital list";
+var m1 = document.createElement("LABEL");
+var t13 = document.createTextNode("Hospitals  :");
+m1.setAttribute("for","hospital list");
+m1.appendChild(t13);
+document.body.appendChild(m1);
+document.body.appendChild(m);
+document.body.appendChild(document.createElement("br"));
+var n = document.createElement("INPUT");
+n.setAttribute("type","Date");
+n.id = "Date";
+var n1 = document.createElement("LABEL");
+var t14 = document.createTextNode("Available date to take blood samples  :");
+n1.setAttribute("for","Date");
+n1.appendChild(t14);
+document.body.appendChild(n1);
+document.body.appendChild(n);
+document.body.appendChild(document.createElement("br"));
+var o = document.createElement("INPUT");
+o.setAttribute("type","checkbox");
+o.id = "privacy";
+var o1 = document.createElement("LABEL");
+var t15 = document.createTextNode("Privacy policy ");
+o1.setAttribute("for","privacy");
+o1.appendChild(t15);
+document.body.appendChild(o1);
+document.body.appendChild(o);
+document.body.appendChild(document.createElement("br"));
+var p = document.createElement("INPUT");
+p.setAttribute("type","submit");
+p.id = "submit";
+//var p1 = document.createElement("LABEL");
+//var t16 = document.createTextNode("Submit  :");
+//p1.setAttribute("for","submit");
+//p1.appendChild(t16);
+//document.body.appendChild(p1);
+document.body.appendChild(p);
+
+</script>
+
+</body>
+</html>
